@@ -3,12 +3,12 @@ package com.discoveri.heartihealth.repositoryImpl;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.discoveri.heartihealth.configuration.HibernateConfig;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import com.discoveri.heartihealth.configuration.HibernateConfig;
 import com.discoveri.heartihealth.dto.IntervalReportWeeklyDTO;
 import com.discoveri.heartihealth.dto.LivePrediction;
 import com.discoveri.heartihealth.dto.TotalPredictionWeeklyDTO;

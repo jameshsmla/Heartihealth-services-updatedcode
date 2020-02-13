@@ -1,4 +1,4 @@
-package org.discoveri.heartihealth.configuration;
+package com.discoveri.heartihealth.configuration;
 
 import java.util.HashMap;
 import java.util.Map;
